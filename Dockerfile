@@ -10,8 +10,8 @@ RUN apt-get update && \
 
 # Download Convert-Pheno
 WORKDIR /usr/share/
-RUN git clone https://github.com/mrueda/pxf_validator.git
+RUN git clone https://github.com/mrueda/pxf-validator.git
 
 # Install Perl modules
-WORKDIR /usr/share/pxf_validator
+WORKDIR /usr/share/pxf-validator
 RUN cpanm --installdeps .

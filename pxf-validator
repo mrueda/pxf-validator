@@ -248,7 +248,7 @@ To enter:
 
 The command-line executable can be found at:
 
-  /usr/share/convert-pheno/bin/convert-pheno
+  /usr/share/pxf-validator/pxf-validator
  
 =head3 Mounting volumes
 Docker containers are fully isolated. If you need the mount a volume to the container please use the following syntax (C<-v host:container>). 

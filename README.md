@@ -47,7 +47,7 @@ To enter:
 
 The command-line executable can be found at:
 
-     /usr/share/convert-pheno/bin/convert-pheno
+     /usr/share/pxf-validator/pxf-validator
     
 
 ### Mounting volumes
