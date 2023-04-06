@@ -27,7 +27,7 @@ use strict;
 use warnings;
 use feature qw(say);
 use autodie;
-use Getopt::Long qw(:config posix_default);
+use Getopt::Long qw(:config no_ignore_case);
 use Pod::Usage;
 use Path::Tiny;
 use Data::Dumper;
@@ -60,7 +60,7 @@ sub validate_input_data {
         'debug=i'        => \$debug,                                   # integer
         'verbose'        => \$verbose,                                 # flag
         'no-color|nc'    => \my $no_color,                             # flag
-        'version|v'      => sub { say "$0 Version $version"; exit; }
+        'version|V'      => sub { say "$0 Version $version"; exit; }
     ) or pod2usage(2);
     pod2usage(1)                              if $help;
     pod2usage( -verbose => 2, -exitval => 0 ) if $man;
@@ -217,6 +217,7 @@ pxf-validator -i <*json> [-options]
        -debug                         Print debugging (from 1 to 5, being 5 max)
        -verbose                       Verbosity on
        -nc|-no-color                  Don't print colors to STDOUT
+       -V|version                     Print Version   
 
 =head1 DESCRIPTION
 
@@ -304,7 +305,7 @@ A Phenopacket file(s) in JSON format.
 
 B<Examples:>
 
- $ pxf-validator -i phenopackets.json 
+ $ ./pxf-validator -i phenopackets.json 
 
  $ $path/pxf-validator -i phenopackets*.json
 

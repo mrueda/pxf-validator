@@ -16,6 +16,7 @@ pxf-validator -i <\*json> \[-options\]
        -debug                         Print debugging (from 1 to 5, being 5 max)
        -verbose                       Verbosity on
        -nc|-no-color                  Don't print colors to STDOUT
+       -V|version                     Print Version   
 
 # DESCRIPTION
 
@@ -100,7 +101,7 @@ For executing pxf-validator you will need:
 
 **Examples:**
 
-    $ pxf-validator -i phenopackets.json 
+    $ ./pxf-validator -i phenopackets.json 
 
     $ $path/pxf-validator -i phenopackets*.json
 
