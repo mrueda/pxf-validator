@@ -1,0 +1,3 @@
+==== PROCESSING <t/mcahs1_err1.json> file ====
+Row 1:
+/: Properties not allowed: mtaData.

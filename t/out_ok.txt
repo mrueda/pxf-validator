@@ -1,2 +1,2 @@
-[1m[34m==== PROCESSING <t/mcahs1.json> file ====[0m
-[1m[32mHurray! No errors found[0m
+==== PROCESSING <t/mcahs1.json> file ====
+Hurray! No errors found
