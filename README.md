@@ -4,19 +4,19 @@ pxf-validator: A script that validates PXF JSON files against PXF v2 JSON schema
 
 # SYNOPSIS
 
-pxf-validator -i <\*json> \[-options\]
+    pxf-validator -i <*json> [-options]
 
-     Arguments:                       
-       -i|input                       Phenopacket JSON file(s)
+      Arguments:                       
+        -i|input                       Phenopacket JSON file(s)
 
-     Options:
-       -s|schema-dir                  Directory with Phenopacket v2 JSON schema 
-       -h|help                        Brief help message
-       -man                           Full documentation
-       -debug                         Print debugging (from 1 to 5, being 5 max)
-       -verbose                       Verbosity on
-       -nc|-no-color                  Don't print colors to STDOUT
-       -V|version                     Print Version   
+      Options:
+        -s|schema-dir                  Directory with Phenopacket v2 JSON schema 
+        -h|help                        Brief help message
+        -man                           Full documentation
+        -debug                         Print debugging (from 1 to 5, being 5 max)
+        -verbose                       Verbosity on
+        -nc|-no-color                  Don't print colors to STDOUT
+        -V|version                     Print Version   
 
 # DESCRIPTION
 
